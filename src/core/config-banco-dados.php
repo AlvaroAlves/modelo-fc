@@ -9,4 +9,4 @@ define("DB_HOST", "localhost");
 define("DB_NAME", "teste_fc");
 define("DB_USER", "root");
 define("DB_PASS", "");
-define("DB_PORT", "3336");
+define("DB_PORT", "3306");
