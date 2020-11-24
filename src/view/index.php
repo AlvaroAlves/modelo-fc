@@ -1,12 +1,19 @@
-<div class="col-8 offset-2">
+<div class="col-12">
   <div class="painel">
-  <?php 
+    <?php 
       
       foreach ($data['medicos'] as $medico) { ?>
-      <tr>
-        <td><?= $medico->id ?></td>
-        <td><?= $medico->nome ?></td>
-      </tr>
+      <div class="card-medico">
+        <div class="row">
+          <div class="col-6">
+            <h5><?= $medico->nome ?></h5>
+          </div>
+          <div class="col-6">
+            <button type="button" class="btn btn-outline-primary float-right btn-sm">Configurar horários</button>
+            <button type="button" class="btn btn-outline-primary float-right btn-sm">Editar cadastros</button>
+          </div>
+        </div>
+      </div>
     <?php }?>
     
   </div>
