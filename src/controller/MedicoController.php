@@ -20,7 +20,7 @@ class MedicoController extends Controller
      */
     public function criar()
     {
-        
+        return $this->view('cadastromedico');
     }
  
     /**
